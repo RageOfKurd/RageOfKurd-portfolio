@@ -3,10 +3,10 @@ import Image from 'next/image'
 
 const Avatar = () => {
   return (
-    <div className=' rounded-full p-3 border border-neutral-300'>
-        <div className=' rounded-full p-3 border border-neutral-200'>
+    <div className=' rounded-full p-5 border border-neutral-300'>
+        <div className=' rounded-full p-5 border border-neutral-200'>
         <Image
-         className='rounded-full border border-neutral-100 sm:w-48 md:w-52 lg:w-56'
+         className='rounded-full border border-neutral-100 sm:w-48 md:w-52 lg:w-56 xl:w-64 2xl:w-72'
          src="/images/avatar.png" 
          height={160} 
          width={160} 

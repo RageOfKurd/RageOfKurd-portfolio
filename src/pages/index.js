@@ -1,13 +1,17 @@
 import Head from 'next/head'
 import { Inter } from 'next/font/google'
-import Avatar from '@/components/Avatar'
+import Creation from '../components/Creation'
+import TitleSection from '@/components/TitleSection'
+import Projects from '@/components/Projects'
+import Footer from '@/components/Footer'
 
 export default function Home() {
   return (
-    <main className='flex justify-center py-20 '>
-      <section className='flex '>
-        <Avatar />
-      </section>
+    <main className='flex flex-col jurstify-cente pt-20 overflow-hidden'>
+      <Creation />
+      <TitleSection />
+      <Projects />
+      <Footer />
     </main>
   )
 }
