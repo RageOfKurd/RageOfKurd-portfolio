@@ -39,7 +39,7 @@ export default function Document() {
         <link rel="icon" type="image/png" href="/images/avatar.png" sizes="32x32" />
         <link rel="icon" type="image/png" href="/images/avatar.png" sizes="16x16" />
         <link rel="manifest" href="/manifest.json" />
-        <link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5" />
+        <link rel="mask-icon" href="/images/avatar.png" color="#5bbad5" />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
